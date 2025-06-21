@@ -1,2 +1,1 @@
-Hello world!
-It's my life!
+Hello, World!Appended text.
