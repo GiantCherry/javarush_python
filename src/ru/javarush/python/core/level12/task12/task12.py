@@ -5,6 +5,6 @@
 # Напишите тут ваш код
 import os
 
-if os.path.isfile('example.txt'):
+if os.path.exists('example.txt'):
     os.remove('example.txt')
     print('File removed')
