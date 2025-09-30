@@ -11,7 +11,9 @@ url = 'https://vitaminsan.ru/order/'
 
 
 # Отправка GET-запроса с cookies
-response = requests.get(url, cookies=cookies)
+# response = requests.get(url, cookies=cookies) # рабочий вариант
+headers = {'Cookie': 'PHPSESSID=NW8TwlaiX5pwhnzA7iMPBiprwlPlb2LL'}
+response = requests.get(url, headers=headers, cookies=cookies)
 
 # Проверка успешности запроса
 if response.status_code == 200:
