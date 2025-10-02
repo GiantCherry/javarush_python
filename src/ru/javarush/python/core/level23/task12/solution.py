@@ -9,10 +9,28 @@ response = requests.get(url)
 
 # Парсим HTML-документ с помощью BeautifulSoup
 soup = BeautifulSoup(response.text, 'html.parser')
+
+soup_title = soup.find('h1')
+print(soup_title.getText())
+print(soup_title.find_next('p').text)
+
+'''
+soup_title = soup.find('h2')
+print(soup_title.getText())
+print(soup_title.find_next('p').text)
+
+soup_title = soup.find('h3')
+print(soup_title.getText())
+print(soup_title.find_next('p').text)
+'''
+
+'''
 tags = ['h1', 'h2', 'h3', 'p']
 for child in soup.recursiveChildGenerator():
     if child.name in tags:
         print(child.text)
+'''
+
 
 ''''
 h1 = soup.h1
