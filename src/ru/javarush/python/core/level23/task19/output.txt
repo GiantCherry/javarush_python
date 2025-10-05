@@ -1,0 +1,9 @@
+Class: content
+This is a paragraph in the content class.
+
+Class: content
+Another paragraph in the content class.
+
+Class: highlighted-content
+This is a paragraph in the highlighted-content class.
+
