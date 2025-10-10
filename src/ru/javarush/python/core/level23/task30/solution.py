@@ -14,7 +14,7 @@ soup = BeautifulSoup(html_content, 'html.parser')
 li_elements = soup.find_all('li')
 
 # Формирование списка Python из текста элементов
-items = [item.getText() for item in li_elements if item]
+items = [item.getText() for item in li_elements]
 
 # Вывод результата
 print(items)
