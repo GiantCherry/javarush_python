@@ -1,0 +1,15 @@
+2025-10-18 16:45:14,153 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/1 on page 1
+2025-10-18 16:45:15,714 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/2 on page 2
+2025-10-18 16:45:17,123 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/3 on page 3
+2025-10-18 16:45:18,693 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/4 on page 4
+2025-10-18 16:45:20,222 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/5 on page 5
+2025-10-18 16:48:18,985 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/1 on page 1
+2025-10-18 16:48:21,041 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/2 on page 2
+2025-10-18 16:48:22,468 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/3 on page 3
+2025-10-18 16:48:23,844 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/4 on page 4
+2025-10-18 16:48:25,263 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/5 on page 5
+2025-10-18 17:03:49,662 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/1 on page 1
+2025-10-18 17:03:51,880 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/2 on page 2
+2025-10-18 17:03:53,448 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/3 on page 3
+2025-10-18 17:03:55,085 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/4 on page 4
+2025-10-18 17:03:56,475 - ERROR - HTTP Error: 404 Client Error: Not Found for url: http://example.com/page/5 on page 5
