@@ -4,7 +4,7 @@ import time
 
 # Указываем API-ключ для сервиса 2Captcha и URL изображения CAPTCHA
 API_KEY = 'ВАШ_API_КЛЮЧ_2CAPTCHA'  # Замените на ваш реальный API-ключ
-CAPTCHA_URL = 'URL_ИЗОБРАЖЕНИЯ_CAPTCHA'  # Замените на реальный URL изображения CAPTCHA
+CAPTCHA_URL = 'https://rucaptcha.com/auth/register'  # Замените на реальный URL изображения CAPTCHA
 
 # Загружаем изображение CAPTCHA
 captcha_image = requests.get(CAPTCHA_URL).content
